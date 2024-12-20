@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="../../js/script.js" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../css/login.css">
+    <title>Login</title>
+
+</head>
+
+<body class="style">
+
+    <div class="page">
+        <div id="errorEl"></div>
+        <form id="loginForm" onsubmit="return handleLogin(event)">
+
+          <h1 class="head">Create An account</h1>
+          <p class="para">Create an account to enjoy all the services without any ads for free</p>
+      
+          <div>
+              <label for="email"></label>
+              <input type="email" id="email" name="email" placeholder="Email Address" >
+          </div>
+      
+          <div>
+              <label for="pass"></label>
+              <input type="password" id="pass" name="pass" placeholder="Password" >
+          </div>
+          <div>
+              <a class="forget" href="change password.html">forget password?</a>
+          </div>
+          <div>
+              <input class="login" type="submit" value="Login">
+          </div>
+          <div>
+              <input class="Register" type="button" value="Register">
+          </div>
+      </form>
+      
+
+    </div>
+
+
+
+
+
+
+
+    <div class="image">
+        <img class="image-img" src="../../img/auth_img/2005.png" alt="welcome image">
+        <caption>
+            <h1 class="image-head">Welcome</h1>
+            <p class="image-para">Enter your personal details to use all of site features</p>
+        </caption>
+    </div>
+
+</body>
+
+</html>

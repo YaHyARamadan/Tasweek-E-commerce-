@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+header {
+    color: white;
+    padding-top: 80px ;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #84C7AE;
+}
+
+.store-description {
+    height: 72px;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 20px 120px 20px ;
+    gap: 40px;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.service {
+    background-color: #6D977D;
+    margin: 20px;
+    border-radius: 110px 110px 100% 100%;
+    padding: 20px;
+    width: 260px;
+    height: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.images {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #EEEEE8;
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    margin-bottom: -40px;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 27px;
+    color: #9B9B9B;
+    text-align: center;
+    cursor: pointer;
+}

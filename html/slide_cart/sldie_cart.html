@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="../../css/slide_cart.css" />
+    <script src="../../js/slide_cart.js" defer></script>
+    <title>Ecommerce Side Cart</title>
+  </head>
+  <body>
+    <!-- Open Btn -->
+     <button id="open_cart_btn">
+      <img src="../../img/slide_cart_img/cart.svg" alt="" width="30px">
+     </button>
+    <!-- Slide Cart -->
+    <div class="sidecart" id="sidecart">
+      <div class="cart_content">
+        <div class="cart_header">
+          <img src="../../img/slide_cart_img/cart.svg" alt="" style="width: 30px;">
+          <div class="header_title">
+            <h2>Your Cart</h2>
+            <span id="Items_num">4</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items">
+          <!-- <div class="cart_item">
+            <div class="remove_item">
+              <span>&times;</span>
+            </div>
+          </div> -->
+        </div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL:</p>
+            <p>$ <span id="subtotal_price">3896</span></p>
+          </div>
+          <button>View Cart</button>
+          <button>Checkout</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
