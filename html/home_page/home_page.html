@@ -1,5 +1,3 @@
-<!--                                                           الناس دي غريبه 😂😂                                                 -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,43 +9,44 @@
     <link rel="stylesheet" href="../../css/home_css/all.min.css"/>
     <link rel="stylesheet" href="../../css/slide_cart.css" />
     <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <script src="../../js/slide_cart.js" defer></script>
   </head>
+
   <body>
-    <!-- Nav Start -->
-
-
-     <!-- فصول الهد  -->
-    <nav>
-      <div class="navbar-container">
-        <div class="navbar-logo">
-          <img src="../../img/home_img/Asset 2.png" alt="logo">
+    <!-- Navigator Section -->
+    <header>
+      <nav>
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <img src="../../img/home_img/Asset 2.png" alt="logo">
+          </div>
+          <!-- Navigator Links -->
+          <ul class="navbar-links"> 
+            <li><input class="search" type="search" placeholder=" search..."/></li>
+            <li><a href="../home_page/home_page.html">Home</a></li>
+            <li><a href="../content_page/content.html">products</a></li>
+            <li><a href="../service_page/service.html">Services</a></li>
+            <li><a href="../contact_us_page/contact_us.html">contact</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#" id="open_cart_btn">
+                <img style="scale: 60%;" src="../../img/home_img/🦆 icon _shopping cart_.png" alt="Shopping Cart">
+              </a>
+            </li>
+            <li>
+              <a href="../auth_pages/register.html" target="_blank">
+                <img id="profile_icon" src="../../img/home_img/profile.svg" alt="Shopping Cart">
+              </a>
+            </li>
+          </ul>
         </div>
-        <ul class="navbar-links"> 
-          <li><input class="search" type="search" placeholder=" search..."/></li>
-          <li><a href="../home_page/home_page.html">Home</a></li>
-          <li><a href="../content_page/content.html">products</a></li>
-          <li><a href="../service_page/service.html">Services</a></li>
-          <li><a href="../contact_us_page/contact_us.html">contact</a></li>
-          <li><a href="#">About</a></li>
-          <li>
-            <a href="#" id="open_cart_btn">
-              <img style="scale: 60%;" src="../../img/home_img/🦆 icon _shopping cart_.png" alt="Shopping Cart">
-            </a>
-          </li>
-          <li>
-            <a href="../auth_pages/Login_page.html" >
-              <img id="profile_icon" src="../../img/home_img/profile.svg" alt="Shopping Cart">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Nav End -->
-    <!-- Hero Section Start -->
-     <!-- خاصه ب الصفحة الرئيسية -->
+      </nav>
+    </header>
+    <!-- Last Line in Navigator-->
+
+
+    <!-- Content Section of Home Page -->
     <div class="top-img">
       <section class="content">
         <p class="lifestyle">Trade-in-offer</p>
@@ -56,44 +55,45 @@
         <p class="free-shipping">
           save more with coupons &<span>up to 70% off!</span>
         </p>  
-        <button class="btn"><a id="transform-btn" href="../content_page/content.html">
-          Shop Now  <img  class="imgs" src="../../img/home_img/Ecommerce campaign-cuate 1.png"  alt="photo"></a></button>
+        <button class="btn">
+          <a id="transform-btn" href="../content_page/content.html">
+          Shop Now  
+          <img  class="imgs" src="../../img/home_img/Ecommerce campaign-cuate 1.png"  alt="photo">
+          </a>
+        </button>
       </section>
     </div>
-
+    <!-- Last Line in Content Section -->
 
     <!-- Slide Cart -->
     <div class="sidecart" id="sidecart">
       <div class="cart_content">
+        <!-- Cart Header -->
         <div class="cart_header">
           <img src="images/cart.svg" alt="" style="width: 30px;">
           <div class="header_title">
             <h2>Your Cart</h2>
-            <span id="Items_num">4</span>
+            <span id="Items_num">0</span>
           </div>
           <span id="close_btn" class="close_btn">&times;</span>
         </div>
         <!-- Cart Items -->
         <div class="cart_items">
-          <!-- <div class="cart_item">
-            <div class="remove_item">
-              <span>&times;</span>
-            </div>
-          </div> -->
+          <!-- No Items Add it -->
         </div>
         <!-- Cart Actions -->
         <div class="cart_actions">
           <div class="subtotal">
             <p>SUBTOTAL:</p>
-            <p>$ <span id="subtotal_price">3896</span></p>
+            <p>$ <span id="subtotal_price">0</span></p>
           </div>
-          <button>Checkout</button>
+          <button><a class="payment-link" href="../payment_page/Payment.html">Checkout</a></button>
           <button>View Cart</button>
-          
         </div>
       </div>
     </div>
 
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -142,6 +142,5 @@
       </div>
     </footer>
 
-</head>
   </body>
 </html>

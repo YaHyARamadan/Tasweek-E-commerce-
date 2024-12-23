@@ -123,3 +123,15 @@ body {
 button:hover{
   opacity: 0.8;
 }
+
+.payment-link{
+  text-decoration: none;
+  color: white;
+}
+
+.payment-link:hover{
+  color: #fff;
+  font-size: large;
+  transition: 0.3s;
+  font-weight: bolder;
+}

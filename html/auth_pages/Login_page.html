@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <script src="../../js/script.js" defer></script>
+    <link rel="shortcut icon" href="../../img/home_img/Asset 2.png" type="image/x-icon" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../../css/login.css">
     <title>Login</title>
+    <script src="../../js/auth_js/login.js"></script>
 
 </head>
 
@@ -20,7 +21,7 @@
 
     <div class="page">
         <div id="errorEl"></div>
-        <form id="loginForm" onsubmit="return handleLogin(event)">
+        <form id="loginForm" action="#" method="post" onsubmit="return validateForm(event)">
 
           <h1 class="head">Create An account</h1>
           <p class="para">Create an account to enjoy all the services without any ads for free</p>
@@ -41,11 +42,10 @@
               <input class="login" type="submit" value="Login">
           </div>
           <div>
-              <input class="Register" type="button" value="Register">
+              <input class="Register" type="button" value="Register" onclick="window.location.href='register.html';">
           </div>
+          <div id="formMessage"></div>
       </form>
-      
-
     </div>
 
 

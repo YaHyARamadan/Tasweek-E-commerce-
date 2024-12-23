@@ -8,7 +8,7 @@ function validateForm(event) {
     const email = document.getElementById("Email").value.trim();
     const phone = document.getElementById("PhoneNumber").value.trim();
     const message = document.getElementById("Message").value.trim();
-
+  
     // التحقق من وجود قيم في الحقول
     if (!firstName || !lastName || !email || !phone || !message) {
         // إذا كان هناك حقل فارغ
@@ -25,7 +25,7 @@ function validateForm(event) {
     setTimeout(function () {
         // إرسال النموذج بعد نصف ثانية
         document.getElementById("contactForm").submit();
-    }, 500);
+    }, 2000);
 
     return false; // تأكد من أن النموذج لا يتم إرساله مباشرة
 }

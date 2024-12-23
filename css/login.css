@@ -13,7 +13,7 @@
 
 .page {
     width: 690px;
-    height: 530px;
+    height: 570px;
     margin-top: 90px;
     margin-left: 58px;
     background: #F6FBF9;
@@ -48,6 +48,7 @@ input {
     width: 450.27px;
     height: 65px;
     margin-top: 20px;
+    margin-bottom: 6px;
     gap: 0px;
     border-radius: 15.34px 0px 15.34px 0px;
     border: 1.53px 0px 0px 0px;
@@ -82,6 +83,7 @@ input {
     width: 170px;
     height: 50px;
     margin-top: 10px;
+    margin-bottom: 10px;
     background: #F6FBF9;
     border: 1.53px solid #84C7AE;
     font-family: karla;
@@ -101,6 +103,17 @@ input {
 
 
 
+.message {
+  text-align: center;
+  color: green;
+  margin: 5px 0px;
+}  
+
+.error-message {
+  text-align: center;
+  color: red;
+  margin: 10px 0px;
+}  
 
 
 

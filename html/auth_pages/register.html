@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="../../img/home_img/Asset 2.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="../../css/register.css">
+  <script src="../../js/auth_js/register.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+
+  <div class="infoBox">
+    <div class="img">
+      <img src="../../img/auth_img/Webinar-pana 1.png" alt="welcome">
+    </div>
+    <p class="pargraph">
+      By creating a new account, you'll gain access to all our services completely free and without any ads!
+    </p>
+
+  </div>
+
+
+  <div>
+    <div class="formBox">
+      <div class="header">
+        <h1>For a Register</h1>
+      </div>
+      <div class="caption">
+        <p>
+          you can use a similar tone but adapt it for account creation.
+        </p>
+      </div>
+      <form action="" id="registerForm" method="post" onsubmit="return validateForm(event)">
+
+        <div>
+          <input type="Username" id="username" name="username" placeholder=" usernme">
+        </div>
+
+        <div>
+          <input type="email" id="email" name="email" placeholder=" Email" >
+        </div>
+  
+        <div>
+          <input type="password" id="pass" name="pass" placeholder="password">
+        </div>
+  
+        <div>
+          <button class="Register" type="submit">Register</button>
+        </div>
+        
+        <div>
+          <a class="forget" href="Login_page.html">I Have Account?</a>
+        </div>
+
+        <div id="formMessage"></div>
+
+      </form>
+    </div>
+  </div>
+
+</div>
+</body>
+
+</html>
