@@ -18,36 +18,37 @@
 </head>
 
 <body>
-    
-        <!-- Nav Start -->
-        <!-- فصول الهد  -->
-        <nav>
-          <div class="navbar-container">
-            <div class="navbar-logo">
-              <img src="../../img/home_img/Asset 2.png" alt="logo">
+        <!-- Navigator Section -->
+        <header>
+          <nav>
+            <div class="navbar-container">
+              <div class="navbar-logo">
+                <img src="../../img/home_img/Asset 2.png" alt="logo">
+              </div>
+              <!-- Navigator Links -->
+              <ul class="navbar-links"> 
+                <li><input class="search" type="search" placeholder=" search..."/></li>
+                <li><a href="../home_page/home_page.html">Home</a></li>
+                <li><a href="../content_page/content.html">products</a></li>
+                <li><a href="../service_page/service.html">Services</a></li>
+                <li><a href="../contact_us_page/contact_us.html">contact</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                  <a href="#" id="open_cart_btn">
+                    <img style="scale: 60%;" src="../../img/home_img/🦆 icon _shopping cart_.png" alt="Shopping Cart">
+                  </a>
+                </li>
+                <li>
+                  <a href="../auth_pages/register.html" target="_blank">
+                    <img id="profile_icon" src="../../img/home_img/profile.svg" alt="Shopping Cart">
+                  </a>
+                </li>
+              </ul>
             </div>
-            <ul class="navbar-links"> 
-              <li><input class="search" type="search" placeholder=" search..."/></li>
-              <li><a href="../home_page/home_page.html">Home</a></li>
-              <li><a href="../content_page/content.html">products</a></li>
-              <li><a href="../service_page/service.html">Services</a></li>
-              <li><a href="../contact_us_page/contact_us.html">contact</a></li>
-              <li><a href="#">About</a></li>
-              <li>
-                <a href="#" id="open_cart_btn">
-                  <img style="scale: 60%;" src="../../img/home_img/🦆 icon _shopping cart_.png" alt="Shopping Cart">
-                </a>
-              </li>
-              <li>
-                            <a href="../auth_pages/register.html" target="_blank">
-
-                  <img id="profile_icon" src="../../img/home_img/profile.svg" alt="Shopping Cart">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- Nav End -->
+          </nav>
+        </header>
+        <!-- Last Line in Navigator-->
+    
     
    
     <h1>Books</h1>
@@ -182,22 +183,21 @@
               <button class="add-to-cart">Add To Cart</button>
           </div>
           <div class="product-card">
-              <img src="../../img/content_img/book_shawki.png" alt="على خطى الرسول ﷺ">
-              <h4>شوقي للرسول صلى الله عليه وسلم</h4>
-              <p>
-                  هذا لأجلِ يوم نزول الوحيَ إذ لم أكنْ موجوداً لأضمَّكَ إلى قلبي وأنتَ ترتجف! ولأجلِ يوم
-                  الطائف إذ لم أكنْ موجوداً لأصدَّ عنكَ الحجارة بصدري! ولأجلِ يوم موت خديجة إذ لم أكنْ موجوداً
-                  لأمسحَ دمعتكَ، وأقول لكَ: أنا فِدى نعلكَ! ولأجلِ يوم أُحدٍ إذ لم أكنْ موجوداً وأنتَ تمسحُ
-                  الدّم عن وجهكَ الشريف لأقيكَ تلك الضّربة! </p>
-              <div class="rating">⭐⭐⭐⭐⭐ (600 reviews)</div>
-              <div class="discount">-11%</div>
-              <div>
-                  <span class="price">$5.50</span>
-                  <span class="old-price">$6.00</span>
-              </div>
-              <div class="delivery">Get it as soon as <strong>Sunday, December 10</strong></div>
-              <p class="Fulfilled">Fulfilled by E-commerce website - FREE Shipping</p>
-              <button class="add-to-cart">Add To Cart</button>
+            <img src="../../img/content_img/3abkri.jpeg" alt="عبقري العصر">
+            <h4>عبقري العصر</h4>
+            <p>هو عبارة عن مجموعة من القصص الخيالية التي تأخذ شكل حكايات تربوية تحتوي على دروس في الأخلاق.
+              الكتاب يعرض العديد من الشخصيات التي تعكس أشكالًا مختلفة من سلوكيات الناس مع التركيز على كيف يمكن للإنسان أن
+              يطور نفسه من خلال التحلي بحسن الخلق.</p>
+            <div class="rating">⭐⭐⭐⭐⭐ (450 reviews)</div>
+            <div class="discount">-9%</div>
+            <div>
+              <span class="price">$99.9</span>
+              <span class="old-price">$100</span>
+            </div>
+            <div class="delivery">Get it as soon as <strong>Sunday, December 18</strong></div>
+            <p class="Fulfilled">Fulfilled by E-commerce website - FREE Shipping</p>
+    
+            <button class="add-to-cart">Add To Cart</button>
           </div>
       </div>
   </div>
@@ -280,36 +280,33 @@
         <a href="product2.html" role="button">Next</a>
     </div>
 
-    <div class="sidecart" id="sidecart">
-      <div class="cart_content">
-        <div class="cart_header">
-          <img src="images/cart.svg" alt="" style="width: 30px;">
-          <div class="header_title">
-            <h2>Your Cart</h2>
-            <span id="Items_num">4</span>
-          </div>
-          <span id="close_btn" class="close_btn">&times;</span>
-        </div>
-        <!-- Cart Items -->
-        <div class="cart_items">
-          <!-- <div class="cart_item">
-            <div class="remove_item">
-              <span>&times;</span>
+      <!-- Slide Cart -->
+      <div class="sidecart" id="sidecart">
+        <div class="cart_content">
+          <!-- Cart Header -->
+          <div class="cart_header">
+            <img src="images/cart.svg" alt="" style="width: 30px;">
+            <div class="header_title">
+              <h2>Your Cart</h2>
+              <span id="Items_num">0</span>
             </div>
-          </div> -->
-        </div>
-        <!-- Cart Actions -->
-        <div class="cart_actions">
-          <div class="subtotal">
-            <p>SUBTOTAL:</p>
-            <p>$ <span id="subtotal_price">3896</span></p>
+            <span id="close_btn" class="close_btn">&times;</span>
           </div>
-          <button><a class="payment-link" href="../payment_page/Payment.html">Checkout</a></button>
-          <button>View Cart</button>
-          
+          <!-- Cart Items -->
+          <div class="cart_items">
+            <!-- No Items Add it -->
+          </div>
+          <!-- Cart Actions -->
+          <div class="cart_actions">
+            <div class="subtotal">
+              <p>SUBTOTAL:</p>
+              <p>$ <span id="subtotal_price">0</span></p>
+            </div>
+            <button><a class="payment-link" href="../payment_page/Payment.html">Checkout</a></button>
+            <button>View Cart</button>
+          </div>
         </div>
       </div>
-    </div>
 
 
 <!-- Footer Section -->
