@@ -14,7 +14,7 @@ body {
 .payment-container {
   text-align: center;
   padding: 20px;
-  padding-bottom:140px ;
+  padding-bottom: 140px;
 }
 
 .title {
@@ -111,7 +111,6 @@ body {
 
 .payment-illustration img {
   width: 73%;
-  /* margin-bottom: 20px; */
 }
 
 .done-button {
@@ -126,4 +125,71 @@ body {
 
 .done-button:hover {
   background: #f9f9f9;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .form-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .payment-form,
+  .payment-illustration {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .payment-illustration img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .details-form .form-group {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .details-form input {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .done-button {
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .payment-illustration img {
+    width: 100%;
+  }
+
+  .done-button {
+    padding: 8px 40px;
+    font-size: 12px;
+  }
 }

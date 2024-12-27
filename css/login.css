@@ -148,3 +148,70 @@ input {
 .image-para {
     padding: 25px;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .page {
+        width: 80%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .head {
+        font-size: 40px;
+    }
+
+    input {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .login, .Register {
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .image {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .style {
+        flex-direction: column;
+    }
+
+    .page {
+        width: 90%;
+    }
+
+    .image-img {
+        width: 250px;
+        height: auto;
+    }
+
+    .head {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .head {
+        font-size: 24px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .login, .Register {
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .image-img {
+        width: 200px;
+    }
+}
